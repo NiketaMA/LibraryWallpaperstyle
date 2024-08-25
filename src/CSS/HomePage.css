@@ -1,0 +1,115 @@
+/* General styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('back2.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(214, 203, 173, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #3D5456;
+    padding: 20px;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+
+.sidebar-title {
+    color: #E9E6E4;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: #E9E6E4;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #75A2A0;
+    transition: background 0.3s ease;
+}
+
+.nav-link:hover {
+    background: #7F5E43;
+    color: #ffffff;
+}
+
+.logout-button {
+    background: #7F5E43;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+/* Main Content Area */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #E9E6E4;
+    border-radius: 16px;
+}
+
+/* Section Books */
+.section-books {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #3D5456;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Books Table */
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.books-table th, .books-table td {
+    padding: 12px 15px;
+    text-align: left;
+    color: #3D5456;
+}
+
+.books-table th {
+    background-color: #75A2A0;
+    color: #ffffff;
+}
+
+.books-table tr:nth-child(even) {
+    background-color: #E9E6E4;
+}
+
+.books-table tr:hover {
+    background-color: #D6CBAD;
+}
